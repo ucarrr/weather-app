@@ -26,7 +26,7 @@ const Weather: React.FC = () => {
 
     return (
         <div className='flex w-full bg-slate-100 flex-col h-screen mt-28 items-center justify-start gap-10'>
-            <h1 className='text-black/50 text-[25px] font-semibold w-3/4'>Weather Forecast</h1>
+            <h1 className='text-black/50 text-[25px] font-semibold w-3/4'>Weather  Forecast</h1>
             <div className='flex items-center gap-4'>
             <input
             className='px-6 py-3 flex'
@@ -58,7 +58,8 @@ const Weather: React.FC = () => {
                                     <td>{day.datetime}</td>
                                     <td>{day.temp}</td>
                                     <td>{day.weather.description}</td>
-                                </tr>
+                                    
+                                </tr> 
                             ))}
                         </tbody>
                     </table>

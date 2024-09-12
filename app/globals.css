@@ -69,11 +69,16 @@ h1 {
 table {
   width: 100%;
   border-collapse: collapse;
+  border-radius: 20%;
+ 
+  
 }
 
 th, td {
   padding: 8px;
   border: 1px solid #ddd;
+  border-radius: 20%;
+  height: 66px;
 }
 
 th {
